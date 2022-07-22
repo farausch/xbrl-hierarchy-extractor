@@ -1,5 +1,4 @@
-from crypt import methods
-from flask import Flask, request, jsonify
+from flask import Flask, request
 from flask_cors import CORS
 from xbrl_tools import XBRLTools
 from xbrl_resolution import XBRLResolution
